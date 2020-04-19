@@ -2706,15 +2706,22 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("images/cover_2.jpg"), url("../../images/header.jpg");
 		background-position: bottom center,					top left,				center center;
 		background-repeat: repeat-x,						repeat,					no-repeat;
-		background-size: 3200px 460px,					auto,					cover;
+		background-size: cover,					1700px 850px,					cover;
 		color: rgba(255, 255, 255, 0.8);
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
+		overflow: hidden;
 	}
+
+		.above {
+			z-index: 2;
+			position: relative;
+			text-shadow: 1px 1px 5px black;
+		}
 
 		#header:before, #header:after {
 			background: rgba(224, 224, 224, 0.75);
@@ -2769,16 +2776,28 @@ input, select, textarea {
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 2.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 2.35em;
+			height: 7em;
+			width: 7em;
+			border: 2px solid white;
+			overflow: hidden;
 		}
+
+
 
 			#header .logo.fa-paper-plane-o:before {
 				left: -0.075em;
 				position: relative;
+			}
+
+			#header .logo img {
+				position: absolute;
+				left: -75px;
+				top: -60px;
+				height: 450px;
+				width: 450px;
 			}
 
 		#header h1 {
