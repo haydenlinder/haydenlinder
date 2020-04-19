@@ -2175,7 +2175,16 @@ input, select, textarea {
 
 	header.major p.no-top-b {
 		border-top: none;
-		padding: 0
+		padding: 0;
+	}
+
+
+
+	ul.resume {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 80px;
 	}
 
 		.image:after {
