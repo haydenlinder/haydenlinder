@@ -2173,6 +2173,11 @@ input, select, textarea {
 		position: relative;
 	}
 
+	header.major p.no-top-b {
+		border-top: none;
+		padding: 0
+	}
+
 		.image:after {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
