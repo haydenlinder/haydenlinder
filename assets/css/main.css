@@ -2453,6 +2453,7 @@ input, select, textarea {
 
 	ul.icons {
 		cursor: default;
+		margin-top: 30px;
 	}
 
 		ul.icons li {
