@@ -2688,7 +2688,7 @@ input, select, textarea {
 			}
 
 				.feature.left .image img {
-					right: 0;
+					left: 0;
 					top: 0;
 				}
 
