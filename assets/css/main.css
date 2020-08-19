@@ -2698,6 +2698,7 @@ input, select, textarea {
 
 		.feature.right {
 			text-align: right;
+			margin-bottom: 10px;
 		}
 
 			.feature.right .image {
